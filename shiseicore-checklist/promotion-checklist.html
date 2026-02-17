@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<head>
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+
+<body >
+	
+<!-- Promotion Checklist Checklist Table -->
+<div class="promotion_checklist_div" >
+<div id="table" class="table-editable" >
+
+	<h2 >Promotion Checklist</h2>
+
+<div style="display: flex; align-items: flex-start; gap: 15px; ">
+
+    <div style="display: flex; flex-direction: column; gap: 15px; width: 170px;">
+        <!-- Environment table -->
+        <table class="table table-bordered text-center" style="margin-bottom: 0;">
+            <thead>
+                <tr>
+                    <th style="font-size:11pt; color:#ffffff"><i>Environment</i></th>
+                    <th style="font-size:11pt; color:#ffffff">YN</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="text-align:left; font-size:11pt;">Pre-QA</td>
+					<td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                </tr>
+				<tr>
+                    <td style="text-align:left; font-size:11pt; ">Post-QA</td>
+					<td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                </tr>
+            </tbody>
+        </table>
+
+		<!-- Page type table -->
+        <table class="table table-bordered text-center" style="margin-bottom: 0;">
+            <thead>
+                <tr>
+                    <th style="font-size:11pt; color:#ffffff"><i>Page / Type</i></th>
+                    <th style="font-size:11pt; color:#ffffff">YN</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="text-align:left; font-size:11pt; ">GWP</td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                </tr>
+				<tr>
+                    <td style="text-align:left; font-size:11pt; ">PWP</td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                </tr>
+				<tr>
+                    <td style="text-align:left; font-size:11pt; ">Discount</td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                </tr>
+				<tr>
+                    <td style="text-align:left; font-size:11pt; ">Free Shipping</td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                </tr>
+				<tr>
+                    <td style="text-align:left; font-size:11pt; ">Pricebook</td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div style="flex-grow: 1;">
+		<!-- Checklist table -->
+        <table class="table table-bordered" style="width: 850px;">
+            <thead>
+                <tr >
+                    <th class="text-center" style="font-size:11pt; width: 60%; color:#ffffff"><i>Scopes and Limitations</i></th>
+                    <th class="text-center" style="width: 5%; color:#ffffff">Y</th>
+                    <th class="text-center" style="width: 5%; color:#ffffff">N</th>
+                    <th class="text-center" style="width: 5%; color:#ffffff">NA</th>
+                    <th class="text-center" style="width: 40%; color:#ffffff"><i>Remarks</i></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="text-align:left; font-size:11pt; ">Accessibility Level (eq. Registered or any type of customer group)</td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td contenteditable="true" style="text-align:left; font-size:11pt; "></td>
+                </tr>
+                <tr>
+                    <td style="text-align:left; font-size:11pt; ">Coupon Code can be applied</td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td contenteditable="true" style="text-align:left; font-size:11pt; "></td>
+                </tr>
+                <tr>
+                    <td style="text-align:left; font-size:11pt; ">Discounts are correct and applied</td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td contenteditable="true" style="text-align:left; font-size:11pt; "></td>
+                </tr>
+                <tr>
+                    <td style="text-align:left; font-size:11pt; ">DMP has been updated</td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td contenteditable="true" style="text-align:left; font-size:11pt; "></td>
+                </tr>
+                <tr>
+                    <td style="text-align:left; font-size:11pt; ">Excluded products are not working in the promotion</td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td contenteditable="true" style="text-align:left; font-size:11pt; "></td>
+                </tr>
+                <tr>
+                    <td style="text-align:left; font-size:11pt; ">Free shipping are applied</td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td contenteditable="true" style="text-align:left; font-size:11pt; "></td>
+                </tr>
+                <tr>
+                    <td style="text-align:left; font-size:11pt; ">GWP / PWP / Sample is correct</td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td contenteditable="true" style="text-align:left; font-size:11pt; "></td>
+                </tr>
+                <tr>
+                    <td style="text-align:left; font-size:11pt; ">PDP promo description + redirection</td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td contenteditable="true" style="text-align:left; font-size:11pt; "></td>
+                </tr>
+                <tr>
+                    <td style="text-align:left; font-size:11pt; ">Product price strike-through</td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td contenteditable="true" style="text-align:left; font-size:11pt; "></td>
+                </tr>
+                <tr>
+                    <td style="text-align:left; font-size:11pt; ">Promotion combinability</td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td contenteditable="true" style="text-align:left; font-size:11pt; "></td>
+                </tr>
+                <tr>
+                    <td style="text-align:left; font-size:11pt; ">Promotion exclusivity</td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td contenteditable="true" style="text-align:left; font-size:11pt; "></td>
+                </tr>
+                <tr>
+                    <td style="text-align:left; font-size:11pt; ">Promotion customer group</td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td contenteditable="true" style="text-align:left; font-size:11pt; "></td>
+                </tr>
+                <tr>
+                    <td style="text-align:left; font-size:11pt; ">Promotion description</td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td contenteditable="true" style="text-align:left; font-size:11pt; "></td>
+                </tr>
+                <tr>
+                    <td style="text-align:left; font-size:11pt; ">Promotion mechanics are followed</td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td contenteditable="true" style="text-align:left; font-size:11pt; "></td>
+                </tr>
+                <tr>
+                    <td style="text-align:left; font-size:11pt; ">Promotion progress bar + details</td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td contenteditable="true" style="text-align:left; font-size:11pt; "></td>
+                </tr>
+                <tr>
+                    <td style="text-align:left; font-size:11pt; ">Promotion works during live dates (for POST-QA Checking)</td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td contenteditable="true" style="text-align:left; font-size:11pt; "></td>
+                </tr>
+                <tr>
+                    <td style="text-align:left; font-size:11pt; ">Qualifier/s follow the brief</td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td contenteditable="true" style="text-align:left; font-size:11pt; "></td>
+                </tr>
+                <tr>
+                    <td style="text-align:left; font-size:11pt; ">Schedules are respected (BSD, SD, BED, ED)</td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td contenteditable="true" style="text-align:left; font-size:11pt; "></td>
+                </tr>
+	            <tr>
+                    <td style="text-align:left; font-size:11pt; font-weight:bold;">Others:  </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td>
+                    <td contenteditable="true" style="text-align:left; font-size:11pt; "></td>
+                </tr>
+
+
+				
+            </tbody>
+        </table>
+    </div>
+
+</div>
+</table>
+</div>
+</div>
+<button class="takeImageBtn takeImageBtn1" >Screenshot</button>
+<!-- End Checklist table -->
+
+</body>
+</html>
+
+<script src="./html2canvas.js"></script>
+<script src="./index.js"></script>
